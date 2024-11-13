@@ -1,6 +1,5 @@
 
-# ![](https://e7.pngegg.com/pngimages/10/113/png-clipart-django-web-development-web-framework-python-software-framework-django-text-trademark-thumbnail.png) 
-# Guía de Aprendizaje de Django: De Principiante a Profesional
+# ![Django Logo](https://img.icons8.com/color/48/000000/django.png) Guía de Aprendizaje de Django: De Principiante a Profesional
 
 Bienvenido a esta guía completa para aprender Django, el framework de Python para el desarrollo web, desde los conceptos básicos hasta habilidades avanzadas. Cada sección incluye recursos gratuitos, ejemplos prácticos y tareas para profundizar en los temas.
 
