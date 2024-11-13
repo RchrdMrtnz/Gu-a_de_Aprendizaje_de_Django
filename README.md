@@ -26,7 +26,7 @@ Bienvenido a esta guía completa para aprender Django, el framework de Python pa
 
 - [Django - Documentación Oficial](https://docs.djangoproject.com/en/stable/)
 - [Curso Completo de Django para Principiantes (YouTube)](https://www.youtube.com/watch?v=F5mRW0jo-U4)
-- [Django for Beginners - Blog by Will Vincent](https://wsvincent.com/django-for-beginners/)
+- [Django for Beginners - Blog by Will Vincent](https://wsvincent.com/django-for-beginners-32-update/)
 - **Tarea:** Investiga sobre el modelo Modelo-Vista-Plantilla (MVT) y sus diferencias con el patrón MVC.
 
 ---
