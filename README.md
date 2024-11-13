@@ -1,5 +1,9 @@
+<p align="center">
+  <img src="https://img.icons8.com/color/48/000000/django.png" alt="Django Logo"/>
+  <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python Logo"/>
+</p>
 
-# ![Django Logo](https://img.icons8.com/color/48/000000/django.png) Guía de Aprendizaje de Django: De Principiante a Profesional
+<h1 align="center">Guía de Aprendizaje de Django: De Principiante a Profesional</h1>
 
 Bienvenido a esta guía completa para aprender Django, el framework de Python para el desarrollo web, desde los conceptos básicos hasta habilidades avanzadas. Cada sección incluye recursos gratuitos, ejemplos prácticos y tareas para profundizar en los temas.
 
