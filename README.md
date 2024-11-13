@@ -1,22 +1,23 @@
 
-# 🚀 Guía de Aprendizaje de Django: De Principiante a Profesional
+# ![](https://e7.pngegg.com/pngimages/10/113/png-clipart-django-web-development-web-framework-python-software-framework-django-text-trademark-thumbnail.png) 
+# Guía de Aprendizaje de Django: De Principiante a Profesional
 
 Bienvenido a esta guía completa para aprender Django, el framework de Python para el desarrollo web, desde los conceptos básicos hasta habilidades avanzadas. Cada sección incluye recursos gratuitos, ejemplos prácticos y tareas para profundizar en los temas.
 
 ## 🗂️ Tabla de Contenidos
 
-1. [📘 Introducción a Django](#-introducción-a-django)
-2. [🛠️ Configuración del Entorno](#-configuración-del-entorno)
-3. [📂 Estructura de Proyectos Django](#-estructura-de-proyectos-django)
-4. [🗃️ Modelos y Bases de Datos](#-modelos-y-bases-de-datos)
-5. [🌐 Vistas y URLs](#-vistas-y-urls)
-6. [🎨 Plantillas y Archivos Estáticos](#-plantillas-y-archivos-estáticos)
-7. [📝 Formularios y Validación](#-formularios-y-validación)
-8. [🔐 Autenticación y Autorización](#-autenticación-y-autorización)
-9. [🌍 REST APIs con Django REST Framework](#-rest-apis-con-django-rest-framework)
-10. [⚙️ Optimización y Buenas Prácticas](#-optimización-y-buenas-prácticas)
-11. [🚢 Despliegue de Proyectos Django](#-despliegue-de-proyectos-django)
-12. [📚 Recursos Adicionales](#-recursos-adicionales)
+1. 📘 Introducción a Django
+2. 🛠️ Configuración del Entorno
+3. 📂 Estructura de Proyectos Django
+4. 🗃️ Modelos y Bases de Datos
+5. 🌐 Vistas y URLs
+6. 🎨 Plantillas y Archivos Estáticos
+7. 📝 Formularios y Validación
+8. 🔐 Autenticación y Autorización
+9. 🌍 REST APIs con Django REST Framework
+10. ⚙️ Optimización y Buenas Prácticas
+11. 🚢 Despliegue de Proyectos Django
+12. 📚 Recursos Adicionales
 
 ---
 
@@ -44,7 +45,6 @@ django-admin startproject mi_proyecto
 ```
 
 - [Documentación sobre Instalación de Django](https://docs.djangoproject.com/en/stable/intro/install/)
-- [Configuración de Django en VSCode](https://www.youtube.com/watch?v=6nTo9kK6dCw)
 - **Tarea:** Configura un entorno virtual y crea un proyecto básico.
 
 ---
@@ -54,7 +54,6 @@ django-admin startproject mi_proyecto
 **Objetivo:** Entender la estructura de un proyecto Django y cómo se organizan los archivos.
 
 - [Introducción a la Estructura de Proyectos Django](https://docs.djangoproject.com/en/stable/intro/tutorial01/)
-- [Exploring Django’s Folder Structure](https://learndjango.com/tutorials/django-project-structure)
 
 ---
 
@@ -71,7 +70,7 @@ class MiModelo(models.Model):
     fecha_creacion = models.DateTimeField(auto_now_add=True)
 ```
 - [Documentación sobre Modelos](https://docs.djangoproject.com/en/stable/topics/db/models/)
-- [Django Models & Database Tutorial](https://www.youtube.com/watch?v=ZDjYrvxbxYA)
+- [Django Models & Database Tutorial](https://www.youtube.com/watch?v=RbJOmgTX63M)
 - **Tarea:** Define modelos básicos y realiza migraciones.
 
 ---
@@ -99,7 +98,7 @@ urlpatterns = [
 ```
 
 - [Documentación sobre Vistas y URLs](https://docs.djangoproject.com/en/stable/topics/http/views/)
-- [Django Views & URL Routing Tutorial](https://www.youtube.com/watch?v=RrPcEUPzDY8)
+- [Django Views & URL Routing Tutorial](https://www.youtube.com/watch?v=TblSa29DX6I)
 
 ---
 
@@ -130,7 +129,6 @@ urlpatterns = [
 **Objetivo:** Crear formularios para manejar entradas de usuario y validarlas.
 
 - [Documentación de Formularios en Django](https://docs.djangoproject.com/en/stable/topics/forms/)
-- [Django Forms - Crash Course](https://www.youtube.com/watch?v=cFwhK1Gqw1s)
 
 ---
 
@@ -163,7 +161,7 @@ class MiModeloSerializer(serializers.ModelSerializer):
         fields = '__all__'
 ```
 - [Documentación de Django REST Framework](https://www.django-rest-framework.org/tutorial/quickstart/)
-- [Curso de Django REST Framework](https://www.youtube.com/watch?v=VQsmvhCZ9Uk)
+- [Curso de Django REST Framework](https://www.youtube.com/watch?v=tujhGdn1EMI)
 
 ---
 
@@ -172,7 +170,7 @@ class MiModeloSerializer(serializers.ModelSerializer):
 **Objetivo:** Optimizar el rendimiento y adoptar buenas prácticas en el desarrollo con Django.
 
 - [Documentación de Buenas Prácticas](https://docs.djangoproject.com/en/stable/misc/design-philosophies/)
-- [Optimización de Django](https://testdriven.io/blog/optimize-django-performance/)
+- [Optimización de Django](https://testdriven.io/blog/django-performance-optimization-tips/)
 
 ---
 
@@ -195,7 +193,24 @@ git push heroku main
 
 - [Django Girls Tutorial](https://tutorial.djangogirls.org/)
 - [Real Python Django Articles](https://realpython.com/tutorials/django/)
+- [Learn Django](https://learndjango.com/)
 
 ---
 
-> 💡 **Consejo:** Practica constantemente y crea proyectos pequeños para aplicar cada nuevo concepto. Esta guía es un recurso continuo en tu camino hacia convertirte en un desarrollador Django experto. ¡Buena suerte!
+## 💡 Proyectos Sugeridos
+
+Para practicar y consolidar tus habilidades en Django, aquí tienes algunos proyectos de distintos niveles de dificultad:
+
+### Nivel Fácil
+1. **Blog Personal**: Crear un blog donde puedas agregar, editar y eliminar publicaciones. Incluye categorías y tags.
+2. **Lista de Tareas (To-Do List)**: Una app simple para gestionar tareas pendientes, con opciones para agregar, marcar como completadas y eliminar tareas.
+
+### Nivel Medio
+1. **Gestión de Biblioteca**: Aplicación para gestionar libros, autores y géneros, permitiendo registrar préstamos de libros.
+2. **Foro de Discusión**: Un sistema básico de foro donde los usuarios pueden crear temas, comentar y responder a otros usuarios.
+
+### Nivel Avanzado
+1. **Plataforma de Aprendizaje en Línea**: Un sitio donde los instructores puedan subir cursos y los estudiantes puedan registrarse y seguir su progreso.
+2. **Sistema de Gestión de Inventarios**: Una aplicación para controlar inventarios, con seguimiento de ventas y reportes personalizados.
+
+> **Consejo:** Practica constantemente y crea proyectos pequeños para aplicar cada nuevo concepto. Esta guía es un recurso continuo en tu camino hacia convertirte en un desarrollador Django experto. ¡Buena suerte!
